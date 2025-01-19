@@ -1,0 +1,47 @@
+﻿# Visual Studio (Code) files
+.vs
+.vscode
+
+# Launch settings
+**/Properties/launchSettings.json
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+bin/
+Bin/
+obj/
+Obj/
+
+# Development configs
+appsettings.*.json
+
+# Test settings
+testSettings.json
+
+# Jetbrains Rider files
+src/.idea
+.idea/
+
+# ReSharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Deploy
+.env
+.helm/charts
+*.xlsx
+.helm/charts
