@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Iterator", "Iterator", "{E73DE9C0-23BF-4E70-A75C-088E9EF6FDF9}"
+	ProjectSection(SolutionItems) = preProject
+		Iterator\README.md = Iterator\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fufelschmerz.Patterns.Iterator", "Iterator\Fufelschmerz.Patterns.Iterator\Fufelschmerz.Patterns.Iterator.csproj", "{F17F2CBD-2B94-4C27-816E-38C7DCC45448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fufelschmerz.Patterns.Iterator.Client", "Iterator\Fufelschmerz.Patterns.Iterator.Client\Fufelschmerz.Patterns.Iterator.Client.csproj", "{FA768C46-AB6C-4375-8E70-DB97F83EA3D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F17F2CBD-2B94-4C27-816E-38C7DCC45448} = {E73DE9C0-23BF-4E70-A75C-088E9EF6FDF9}
+		{FA768C46-AB6C-4375-8E70-DB97F83EA3D8} = {E73DE9C0-23BF-4E70-A75C-088E9EF6FDF9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17F2CBD-2B94-4C27-816E-38C7DCC45448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17F2CBD-2B94-4C27-816E-38C7DCC45448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17F2CBD-2B94-4C27-816E-38C7DCC45448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17F2CBD-2B94-4C27-816E-38C7DCC45448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA768C46-AB6C-4375-8E70-DB97F83EA3D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA768C46-AB6C-4375-8E70-DB97F83EA3D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA768C46-AB6C-4375-8E70-DB97F83EA3D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA768C46-AB6C-4375-8E70-DB97F83EA3D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
